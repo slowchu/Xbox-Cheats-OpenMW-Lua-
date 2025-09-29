@@ -1,0 +1,31 @@
+page_name: Xbox Cheats
+page_desc: Authentic Xbox-style restore cheats (Black/White combos, then hold A).
+group_name: Cheat Controls & Behavior
+group_desc: Configure inputs and timing.
+
+setting_requireStats_name: Require Stats window open
+setting_requireStats_desc: When enabled, codes only arm while the Stats page is visible.
+setting_timeout_name: Arm timeout (seconds)
+setting_timeout_desc: How long after entering a valid code you can start holding A.
+setting_fillRate_name: Fill rate (points/sec)
+setting_fillRate_desc: Points per second added while holding A.
+setting_debugToasts_name: Show debug toasts
+setting_debugToasts_desc: Show messages when buttons are detected and codes arm.
+
+# NEW – bug toggle
+bug_holdA_name: Xbox bug: keep filling after leaving Stats while holding A
+bug_holdA_desc: If you close the Stats menu while holding A, the fill latches and continues anywhere until you cancel (B / Esc / Backspace) or the stat reaches its cap.
+
+binding_black_name: Black (trigger)
+binding_black_desc: Bind the “Black” button for sequences.
+binding_white_name: White (trigger)
+binding_white_desc: Bind the “White” button for sequences.
+binding_holdA_name: Hold A (action)
+binding_holdA_desc: Bind the A button you must hold to restore.
+
+trigger_black_name: Xbox Cheats: Black
+trigger_black_desc: Cheat sequence trigger — Black.
+trigger_white_name: Xbox Cheats: White
+trigger_white_desc: Cheat sequence trigger — White.
+action_holdA_name: Xbox Cheats: Hold A
+action_holdA_desc: Hold while a code is armed to restore the selected stat.
